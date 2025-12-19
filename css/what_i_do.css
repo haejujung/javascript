@@ -1,0 +1,16 @@
+section .do-me::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+section .dome .do-inner{
+    background-color: #fff;
+    width: 30%;
+    padding: 2rem;
+    float: left;
+    margin-right: 5%;
+    cursor: pointer;
+}
+section .do-me .do-inner:last-child{
+    margin-right: 0;
+}
