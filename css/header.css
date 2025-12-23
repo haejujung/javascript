@@ -47,3 +47,15 @@ header nav ul li button{
     font-size: 1.2rem;
     color:white;
 }
+header .activce{
+    background-color: rgba(0,0,0);
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
